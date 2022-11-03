@@ -1,0 +1,19 @@
+{
+  "name": "web3js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transaction": "node transaction.js",
+    "getMyUint": "node callSmartContractFunction.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.8.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
