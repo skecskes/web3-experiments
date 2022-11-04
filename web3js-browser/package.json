@@ -1,17 +1,15 @@
 {
-  "name": "web3js",
+  "name": "web3js-browser",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "transaction": "node transaction.js",
-    "getMyUint": "node callSmartContractFunction.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Stefan Kecskes<mr.kecskes@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "web3": "^1.8.0"
+    "web3": "^1.8.0",
+    "web3.js-browser": "^0.2.0"
   }
 }
